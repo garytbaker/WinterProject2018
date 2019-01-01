@@ -36,8 +36,9 @@ public class CameraFollow : MonoBehaviour
 		if(deltaH > cameraT.position.y)
 		{
 			Vector3 newPosition = cameraT.position;
+			newPosition.y = deltaH;
 
-			cameraT.position.y = deltaH;
+			cameraT.position = newPosition;
 		}
 		
 	}

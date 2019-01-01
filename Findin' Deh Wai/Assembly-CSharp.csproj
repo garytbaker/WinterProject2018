@@ -55,7 +55,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Bounce.cs" />
      <Compile Include="Assets\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\Scripts\LevelGenerator.cs" />
      <Compile Include="Assets\Scripts\Movement.cs" />
+     <Compile Include="Assets\Scripts\Seppuku.cs" />
  <Reference Include="Unity.TextMeshPro.Editor">
  <HintPath>C:/Users/isaia/Github/WinterProject2018/Findin&apos; Deh Wai/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
  </Reference>

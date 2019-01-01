@@ -10,7 +10,7 @@ public class Bounce : MonoBehaviour
 	void OnCollisionEnter2D(Collision2D collision)
 	{
 		Rigidbody2D rb = collision.collider.GetComponent<Rigidbody2D>();
-		if (collision.relativeVelocity <= 0)
+		if (collision.relativeVelocity.y <= 0f)
 		{
 			if (rb != null)
 			{

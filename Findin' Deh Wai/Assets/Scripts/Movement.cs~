@@ -24,7 +24,7 @@ public class Movement : MonoBehaviour
     void Update()
     {
 
-	    movement = Input.GetAxis("Horizontal");
+	    movement = Input.GetAxis("Horizontal") * movementSpeed;
         
     }
 
